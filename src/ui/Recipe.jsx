@@ -1,5 +1,11 @@
+import RecipeHeader from "./RecipeHeader";
+
 function Recipe() {
-  return <div>Recipe</div>;
+  return (
+    <div>
+      <RecipeHeader />
+    </div>
+  );
 }
 
 export default Recipe;
