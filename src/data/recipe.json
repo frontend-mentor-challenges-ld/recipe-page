@@ -1,0 +1,18 @@
+{
+  "recipeImage": "",
+  "recipeName": "",
+  "recipeDescription": "",
+  "preparaionTime": {
+    "total": "",
+    "preparation": "",
+    "cooking": ""
+  },
+  "ingredients": ["", ""],
+  "instructions": ["", ""],
+  "nutrition": {
+    "calories": 277,
+    "carbs": 2,
+    "protein": 2,
+    "fat": 2
+  }
+}

@@ -31,6 +31,7 @@ const GlobalStyles = createGlobalStyle`
   body {
     box-sizing: border-box;
     font-size: 1.6rem;
+    font-family: var(--outfit);
   }
 
   a {
@@ -38,3 +39,5 @@ const GlobalStyles = createGlobalStyle`
   }
 
 `;
+
+export default GlobalStyles;
