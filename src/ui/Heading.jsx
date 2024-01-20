@@ -5,12 +5,14 @@ const Heading = styled.h1`
     props.$as === "h1" &&
     css`
       font-size: 4rem;
+      color: var(--dark-charcoal);
     `}
 
   ${props =>
     props.$as === "h2" &&
     css`
-      font-size: 28rem;
+      font-size: 2.8rem;
+      color: var(--nutmeg);
     `}
 
     ${props =>
@@ -25,6 +27,7 @@ const Heading = styled.h1`
     css`
       font-size: 2rem;
       font-family: var(--outfit);
+      color: var(--dark-raspberry);
     `}
 `;
 

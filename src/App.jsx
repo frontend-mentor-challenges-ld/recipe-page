@@ -1,14 +1,26 @@
+import styled from "styled-components";
 import GlobalStyles from "./styles/GlobalStyles";
-import Attribution from "./ui/Attribution";
 
+import { RecipeProvider } from "./contexts/RecipeContext";
+
+import Attribution from "./ui/Attribution";
 import Recipe from "./ui/Recipe";
+
+const StyledLayout = styled.main`
+  margin: 10rem auto;
+  width: 50%;
+`;
 
 function App() {
   return (
     <>
       <GlobalStyles />
-      <Recipe />
-      <Attribution />
+      <RecipeProvider>
+        <StyledLayout>
+          <Recipe />
+        </StyledLayout>
+      </RecipeProvider>
+      {/* <Attribution /> */}
     </>
   );
 }
