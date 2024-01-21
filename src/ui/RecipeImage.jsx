@@ -7,6 +7,17 @@ const StyledImg = styled.img`
   object-position: center;
   border-radius: var(--border-radius);
   margin-bottom: 2rem;
+
+  @media only screen and (max-width: 25em) {
+    border-radius: 0;
+    /* margin: -3rem; */
+    /* overflow: visible; */
+    display: inline-block;
+    margin-top: -3rem;
+    margin-left: -3rem;
+    margin-right: -3rem;
+    width: 100vw;
+  }
 `;
 
 function RecipeImage({ recipeImage }) {

@@ -15,6 +15,8 @@ const GlobalStyles = createGlobalStyle`
     --outfit: 'Outfit', sans-serif;
 
     --border-radius: 1rem;
+
+    --bp-800: 50em; // 800px 
   }
 
   *, 
@@ -28,6 +30,10 @@ const GlobalStyles = createGlobalStyle`
 
   html {
     font-size: 62.5%;
+
+    @media only screen and (max-width: 50em) {
+      font-size: 50%;
+    }
   }
 
   body {
