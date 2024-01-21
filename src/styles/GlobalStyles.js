@@ -36,6 +36,7 @@ const GlobalStyles = createGlobalStyle`
     font-family: var(--outfit);
     background-color: var(--eggshell);
     color: var(--brown);
+    line-height: 1.5;
   }
 
   a {

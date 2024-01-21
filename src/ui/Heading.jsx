@@ -29,6 +29,8 @@ const Heading = styled.h1`
       font-family: var(--outfit);
       color: var(--dark-raspberry);
     `}
+
+    line-height: 1;
 `;
 
 export default Heading;
