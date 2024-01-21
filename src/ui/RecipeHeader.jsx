@@ -9,17 +9,7 @@ const StyledRecipeDescription = styled.p`
   color: var(--brown);
 `;
 
-function RecipeHeader({ recipe }) {
-  // const {
-  //   recipeImage,
-  //   recipeName,
-  //   recipeDescription,
-  //   preparaionTime: { total, preparation, cooking },
-  //   ingredients,
-  //   instructions,
-  //   nutrition: { calories, carbs, protein, fat }
-  // } = recipe;
-
+function RecipeHeader() {
   const { recipeImage, recipeName, recipeDescription } = useRecipe();
 
   return (
