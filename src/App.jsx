@@ -30,7 +30,7 @@ function App() {
           <Recipe />
         </StyledLayout>
       </RecipeProvider>
-      {/* <Attribution /> */}
+      <Attribution />
     </>
   );
 }
